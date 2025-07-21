@@ -15,6 +15,8 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/posts' element={<PostList />} />
         <Route path='/posts/:postId' element={<PostDetail />} />
+        <Route path='/posts/:postId' element={<PostDetail />} />
+        <Route path='/posts/:postId' element={<PostDetail />} />
       </Routes>
     </BrowserRouter>
   );
